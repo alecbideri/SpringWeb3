@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Result</title>
+</head>
+<body>
+<h1>Credentials printing</h1>
+
+<p>The result is: <span th:text="${alien}"></span> </p>
+
+<p>The course is: <span th:text="${course}"></span> </p>
+
+<br>
+<a href="/" th:href="@{/}">Enter credentials again</a>
+</body>
+</html>
